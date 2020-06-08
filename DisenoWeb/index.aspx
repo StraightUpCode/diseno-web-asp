@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainPage.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="DisenoWeb.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainPage.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="DisenoWeb.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>Siberian</title>
 </asp:Content>
@@ -11,7 +11,7 @@
             </div>
             <div class="flex w-100 mb-16 justify-end">
                 <div class="w-1/3 flex-shrink-0 flex justify-center">
-                    <div class="w-6/12 card"> <a href="/product.html"><img src="dist/product-1.9dfd81b8.png"
+                    <div class="w-6/12 card"> <a href="/product.aspx"><img src="dist/product-1.9dfd81b8.png"
                                 alt="placeholder" class="card-image object-fit"></a>
                         <div class="card-content">
                             <h1 class="header"> Cloro </h1>
