@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<main class="container" style="min-height:68vh;">
+    <main class="container" style="min-height:68vh;">
         <div class="flex justify-center my-auto items-center">
             <form runat="server" class="w-full max-w-lg my-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                 <div class="flex flex-wrap -mx-3 mb-6">
@@ -11,10 +11,10 @@
                                for="grid-first-name">
                             Nombre
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                               id="grid-first-name"
-                               type="text"
-                               placeholder="Escriba aqui su nombre" />
+                    <asp:TextBox ID="gridFirstName" runat="server" 
+                            placeholder="Escriba aqui su nombre" 
+                            CssClass="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"></asp:TextBox>
+
                     </div>
                     <div class="w-full md:w-1/2 px-3">
                         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
