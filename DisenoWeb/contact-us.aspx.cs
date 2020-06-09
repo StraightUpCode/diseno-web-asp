@@ -13,5 +13,12 @@ namespace DisenoWeb
         {
 
         }
+
+        protected void submitFunction( object sender, EventArgs e)
+        {
+            String password = gridPassword.Text.Trim();
+           
+           
+        }
     }
 }
